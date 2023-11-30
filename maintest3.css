@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left:10px ;
+    
+}
+.body1{
+    background-image: url("https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?size=626&ext=jpg&ga=GA1.1.1769328493.1690020590&semt=ais");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    background-color: gray;
+    background-blend-mode: multiply;
+
+
+}
+.body-1{
+    padding-top: 300px;
+    padding-left: 50px;
+    color:white;
+}
+.mainbody1{
+    z-index: -1;
+    margin-top: -160px;
+    width: 100%;
+    height: 1000px;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.res{
+    width: 150px;
+    height: 50px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.res p{
+    text-align: center;
+    padding-left: 18px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 50px;
+}
+li{
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+li a:hover{
+   color: red;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.head1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/menu-hero-background.webp);
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+.head1 h1{
+    font-size: 70px;
+}
+.head1 p{
+    margin-left: 100px;
+}
+.head2{
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    background-blend-mode: multiply;
+    background-image: url(https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/menu-heading-background-1.webp);
+}
+
+.head2 h2{
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.head2 p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.head3 p{
+    font-size: 20px;
+    color: gray;
+}
+
+.head4{
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    background-blend-mode: multiply;
+    background-image: url(https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/menu-heading-background-2.webp);
+}
+
+.head4 h2{
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.head4 p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+.head5{
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    background-blend-mode: multiply;
+    background-image: url(https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/menu-heading-background-3.webp);
+}
+
+.head5 h2{
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.head5 p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.Meat{
+    margin-left: 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.Meat1{
+    display: flex;
+}
+
+.Meat2{
+    width: 80%;
+}
+.aboutsection{
+    background-image: url("https://img.freepik.com/free-photo/korean-food-jeyuk-bokkeum-fried-pork-korean-style-sauce_1150-42860.jpg?w=900&t=st=1701324940~exp=1701325540~hmac=a1b7af0a8a82b442aac502aafe4b471d5b159b8be1dd95a0dbf729e67e57446e");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    background-blend-mode: multiply;
+    margin-top: 40px;
+}
+.aboutsection{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 100px;
+}
+.aboutsection a{
+    text-decoration: none;
+    color: white;
+}
+.aboutsection a:hover{
+    color: greenyellow;
+}
+.logo1 img{
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+    
+}
+.contact{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+

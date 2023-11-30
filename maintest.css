@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+.logo img{
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left:10px ;
+    
+}
+.body1{
+    background-image: url("https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?size=626&ext=jpg&ga=GA1.1.1769328493.1690020590&semt=ais");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    background-color: gray;
+    background-blend-mode: multiply;
+
+
+}
+.body-1{
+    padding-top: 300px;
+    padding-left: 50px;
+    color:white;
+}
+.mainbody1{
+    z-index: -1;
+    margin-top: -160px;
+    width: 100%;
+    height: 1000px;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.res{
+    width: 150px;
+    height: 50px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    text-align: center;
+}
+.res p{
+    text-align: center;
+    padding-left: 18px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 50px;
+}
+li{
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+li a:hover{
+   color: red;
+}
+.box1{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+    color: black;
+}
+.box2{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(85, 227, 85);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+}
+.mainbox{
+    display: flex;
+    gap: 30px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+.mainbox-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+    
+}
+.box3{
+    background-color: rgb(32, 186, 32);
+}
+.box4{
+    background-color: rgb(24, 107, 24);
+}
+.box5{
+    background-color: rgb(6, 88, 6);
+}
+.box i{
+    font-size: 50px;
+}
+/*..mainbody2..*/
+.mainbody2{
+    width: 100%;
+    height: 600px;
+}
+.boxa1{
+    background-image: url("https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/home-menu-image-1.webp");
+    background-size: cover;
+    width: 300px;
+    height: auto;
+    padding-top:300px ;
+    background-color: rgb(206, 250, 206);
+}
+.menu{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(25, 122, 25);
+    text-align: center;
+    display: flex;
+    align-items:center;
+    padding-left: 30px;
+    color: white;
+}
+.boxa2{
+    background-image: url("https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/home-menu-image-2.webp");
+    background-size: cover;
+    width: 300px;
+    height: auto;
+    padding-top:300px ;
+    background-color: rgb(206, 250, 206);
+}
+.menu{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(25, 122, 25);
+    text-align: center;
+    display: flex;
+    align-items:center;
+    padding-left: 30px;
+    color: white;
+}
+.boxa3{
+    background-image: url("https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/home-menu-image-3.webp");
+    background-size: cover;
+    width: 300px;
+    height: auto;
+    padding-top:300px ;
+    background-color: rgb(206, 250, 206);
+}
+.menu{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(25, 122, 25);
+    text-align: center;
+    display: flex;
+    align-items:center;
+    padding-left: 30px;
+    color: white;
+    margin-left: 100px;
+}
+.mainboxa1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.choos{
+    text-align: center;
+}
+/*...body4..*/
+.body4{
+    background-image: url("https://img.freepik.com/free-photo/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions_2829-10942.jpg?w=900&t=st=1701322703~exp=1701323303~hmac=923652c106391ec92272d617bfe4425adb6914776f55a648e88db6e889838529");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    background-blend-mode: multiply;
+    color: white;
+    
+}
+.food{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.read{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 45%;
+    text-align: center;
+    padding-left: 15px;
+}
+.food h1{
+    font-size: 2.8rem;
+}
+/*...body5..*/
+.catring{
+    text-align: center;
+}
+.mainbody5{
+    margin-top: 15px;
+}
+.photo{
+    width: 500px;
+    height:350px ;
+}
+.photo1{
+    background-image: url("https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/ocasion-image-1.webp");
+    background-size: cover;
+    width: 500px;
+    height:350px ;
+}
+.photo1:hover{
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+.photo2{
+    background-image: url("https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/ocasion-image-2.webp");
+    background-size: cover;
+    width: 500px;
+    height:350px ;
+}
+.photo2:hover{
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+.photo3{
+    background-image: url("https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/ocasion-image-3.webp");
+    background-size: cover;
+    width: 500px;
+    height:350px ;
+}
+.photo3:hover{
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+.photo4{
+    background-image: url("https://demo.creativethemes.com/blocksy/catering/wp-content/uploads/2022/07/ocasion-image-4.webp");
+    background-size: cover;
+    width: 500px;
+    height:350px ;
+}
+.photo4:hover{
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+.main1p{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main2p{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.pt{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 150px;
+    text-align: center;
+    padding-top: 20px;
+}
+.mainphoto{
+    padding-top: 40px;
+}
+/*footer..*/
+.aboutsection{
+    background-image: url("https://img.freepik.com/free-photo/korean-food-jeyuk-bokkeum-fried-pork-korean-style-sauce_1150-42860.jpg?w=900&t=st=1701324940~exp=1701325540~hmac=a1b7af0a8a82b442aac502aafe4b471d5b159b8be1dd95a0dbf729e67e57446e");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    background-blend-mode: multiply;
+    margin-top: 40px;
+}
+.aboutsection{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 100px;
+}
+.aboutsection a{
+    text-decoration: none;
+    color: white;
+}
+.aboutsection a:hover{
+    color: greenyellow;
+}
+.logo1 img{
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+    
+}
+.contact{
+    text-align: center;
+    color: white;
+}
