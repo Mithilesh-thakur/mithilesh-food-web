@@ -81,6 +81,9 @@ li a:hover{
     padding-left: 30px;
     color: black;
 }
+.box1:hover{
+    background-color: rgb(52, 91, 52);
+}
 .box2{
     width: 200px;
     height: 50px;
@@ -89,6 +92,9 @@ li a:hover{
     align-items: center;
     gap: 10px;
     padding-left: 30px;
+}
+.box2:hover{
+    background-color: rgb(52, 91, 52);
 }
 .mainbox{
     display: flex;
@@ -108,7 +114,7 @@ li a:hover{
     
 }
 .box3{
-    background-color: rgb(32, 186, 32);
+    background-color: rgb(24, 136, 24);
 }
 .box4{
     background-color: rgb(24, 107, 24);
